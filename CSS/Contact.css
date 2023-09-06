@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+body {
+  background-color: #1e202b;
+  font-family: 'Roboto', sans-serif;
+}
+ a.nav-link {
+  font-weight: 300 !important;
+  border: 2px solid #1E202B;
+  border-radius: 20px;
+  padding-left: 30px;
+transition: all .2s ease-in-out;
+}
+.active {
+  color: #1e90ff !important;
+    border: 2px solid #1e90ff !important;
+  border-radius: 20px !important;
+}
+
+ a.nav-link:hover {
+  color: #1e90ff;
+  border: 2px solid #1e90ff;
+  border-radius: 20px;
+}
+nav h5 {
+  margin-top: 30px;
+  margin-left: 10px;
+  align-self: flex-end;
+  font-size: 16px;
+}
+nav img {
+width: 100px;
+}
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.location {
+    padding: 20px 20px;
+    border-radius: 30px;
+    background-color: #262936;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+}
+.location a {
+    color: white;
+}
+.data {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    padding: 20px;
+    font-weight: 300;
+    width: 420px;
+    height: 400px;
+    background-color:#262936 ;
+    border-radius: 10px;
+}
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #262936;
+}
+footer button {
+        position: absolute;
+        border-radius: 30px;
+        padding: 15px 40px;
+        z-index: 2;
+        border: none;
+        cursor: pointer;
+        color: white;
+        background-color: #1e90ff;
+        transform: translateX(2px);
+         top: 34px;
+        right:20px ;
+}
+  footer input[type="text"] {
+  margin-top: 30px;
+  background: #101013;
+  color: white;
+  border-radius: 30px;
+  width: 100%;
+  padding:20px 20px ;
+  outline: none;
+  border: none;
+}
+
+.form p {
+    color: darkgray;
+    font-weight: 300;
+}
+
+
+
+.contact div {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.contact img {
+width: 200px;
+}
+.contact i {
+font-size: 30px;
+color: #1e90ff;
+margin-right: 10px;
+}
+.contact a {
+text-decoration: none;
+color: white;
+}
+section input {
+     margin-top: 10px;
+  background: #1E202B;
+  color: white;
+  border-radius: 20px;
+  padding:10px 10px ;
+  outline: none;
+  border: 2px solid #323441;
+  width: 45%;
+  font-weight: 300;
+}
+section input:hover {
+  border: 2px solid #1e90ff;
+}
+
+textarea {
+    margin-top: 10px;
+    background: #1E202B;
+    outline: none;
+    border: 2px solid #323441;
+    width: 90%;
+    border-radius: 20px;
+    padding:10px 10px ;
+    height: 100px;
+}
+  section .form  button {
+      margin-top: 10px;
+        border-radius: 30px;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        color: white;
+        background-color: #1e90ff;
+    }
+footer .form {
+  position: relative;
+}
+footer i {
+  color : white;
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+footer i:hover {
+color:#1e90ff ;
+}
+#demo{
+  color: white;
+}
